@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+       
+.nav audio { 
+position: absolute; 
+left: 110%; 
+top: 10px; 
+display: block; 
+height: 30px; 
+width: 200px; 
+}
+
+        #yahoo:hover{
+        background-image: 
+        }
+    </style>
+    <meta charset='UTF-8'>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+</head>
+<body>
+    <div class="inside">
+        <div id="nav-one" class="nav">
+            <audio id="beep-one" preload="auto">
+            <source src="https://cdn.discordapp.com/attachments/221905012513701890/415592554113794059/miKROsoft_beats_2.ogg"></source>
+              <!-- <source src="http://ipsite.org/3wlk"></source> -->
+                </audio>
+             <img id='yahoo' style="width:100%; height:100%" src="https://i.giphy.com/media/THlAOX9TYlRA42h3fd/giphy.webp"></img>
+        </div>
+        <script>
+            var beepOne = $("#beep-one")[0];
+            $("#nav-one")
+                .mouseenter(function() {
+                    beepOne.play();
+
+                });
+        </script>
+    </div>
+    </section>
+    </div>
+</body>
+
+</html>
